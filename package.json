@@ -1,0 +1,15 @@
+{
+  "name": "tailwind",
+  "version": "0.0.1",
+  "description": "Proyecto de tailwind",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":""
+  },
+  "author": "Yeison Mestra",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
