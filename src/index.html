@@ -7,35 +7,78 @@
     <link href="/dist/output.css" rel="stylesheet">
     <title>Tarjeta de perfil</title>
 </head>
-
-<body class="bg-slate-200 flex justify-center h-screen items-center">
-    <div class="bg-white w-72 rounded shadow-md text-center pt-4">
-        <div class="inline-block relative">
-            <img src="https://www.dzoom.org.es/wp-content/uploads/2020/02/portada-foto-perfil-redes-sociales-consejos-810x540.jpg" class="w-12 h-12 rounded-full">
-            <div class="bg-green-600 rounded-full w-3 h-3 absolute right-0 bottom-0">
+<body class="bg-slate-100">
+    <div class="bg-white h-16 flex items-center">
+        <header class="flex justify-between container max-w-6xl mx-auto">
+            <h1><span class="font-bold text-blue-600">H.</span><span class="text-stone-950">Phone</span></h1>
+            <menu>
+                <ul class="space-x-5">
+                    <li class="inline"><a href="#" class="text-blue-600 border-b-2 border-blue-600 border-dotted">Home</a></li>
+                    <li class="inline"><a href="#">Shop</a></li>
+                    <li class="inline"><a href="#">Blog</a></li>
+                    <li class="inline"><a href="#">Contact</a></li>
+                </ul>
+            </menu>
+            <div class="flex space-x-4">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+                </svg>                       
+            </div>
+        </header>
+    </div>
+    <div class="p-5 bg-white rounded-xl shadow-slate-200 mt-6 max-w-6xl container mx-auto">
+        <div class="grid grid-cols-2 mt-10">
+            <div class=" mx-auto bg-[length:140%,140%] bg-center h-64 w-64 bg-[url(https://as-images.apple.com/is/MME73_AV2?wid=1000&hei=1000&fmt=jpeg&qlt=95&.v=1632861338000)]"></div>
+            <div>
+                <span class="font-semibold text-sm bg-slate-100 rounded-full px-3 pb-1">new</span>
+                <h1 class="text-3xl font-semibold mt-2">Apple AirPods</h1>
+                <span class="bg-gradient-to-r from-blue-600 to-blue-400 text-white py-3 px-3 rounded-lg mt-4 inline-block">3rd Generation</span>
+                <div class="flex mt-6 text-sm text-gray-600">
+                    <span class="mr-2 bg-blue-50 w-3 rounded-full inline-block"></span>
+                    <p class="w-3/5">Personalized Spatial audio with dynamic head tracking places 
+                        sound all around you</p>
+                </div> 
             </div>
         </div>
-        <div class="m-4">
-            <h1>Adel Algimantas</h1>
-            <h1 class="text-gray-600">UI/UX Designer</h1>
+        <div class="items-center flex justify-between shadow-slate-100 h-12 px-6">
+            <div class="text-sm text-gray-400">
+                <span class="text-blue-600 font-semibold">Personalized Spatial audio</span> with dynamic head tracking places 
+                sound all around you
+            </div>
+            <div class="flex space-x-2">
+                <div class="bg-slate-100 p-1 rounded">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+                  </svg>
+                  </div>
+                <div class="bg-slate-100 p-1 rounded">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                  </svg>
+                  </div>
+            </div>
         </div>
-           <div class="grid grid-cols-3 container">
-            <div class="col-span-1 text-gray-600">Projects</div>
-            <div class="col-span-1 text-gray-600">Following</div>
-            <div class="col-span-1 text-gray-600">Followers</div>
-        </div>
-        <div class="grid grid-cols-3 container">
-            <div class="col-span-1">242</div>
-            <div class="col-span-1">757</div>
-            <div class="col-span-1">575</div>
-            <div class=" grid-rows-1 col-span-3 text-center text-gray-600 m-4">Lorem ipsum dolor sit arnet, consectetur adip iscing. Sed et est velit ornare ultrices. Ut vitae diam volutpatrisus eget.</div>
-        </div>
-        <div class="grid grid-cols-4 container">
-            <img src="https://cdn.icon-icons.com/icons2/2157/PNG/512/twitter_logo_icon_132881.png" class="w-7 h-7 rounded-full col-span-1 ms-5">
-            <img src="https://cdn.icon-icons.com/icons2/1109/PNG/512/1486053608-facebook_79182.png" class="w-7 h-7 rounded-full col-span-1">
-            <img src="https://img.freepik.com/vector-premium/icono-google-plus-estilo-corte-papel-iconos-redes-sociales_505135-249.jpg?w=2000" class="w-7 h-7 rounded-full col-span-1">
-            <img src="https://cdn.icon-icons.com/icons2/832/PNG/512/behance_icon-icons.com_66670.png" class="w-7 h-7 rounded-full col-span-1 me-2">
-            <span class="bg-cyan-600 w-10/12 h-10 col-span-4 mx-5 my-5 text-white rounded-3xl justify-center shadow-md">View Profile</span>
+    </div>
+    <div class="container max-w-6xl mx-auto">
+        <div class="grid grid-cols-4 gap-6 mt-12">
+            <div class="bg-white">
+                producto
+            </div>
+            <div class="bg-white">
+                producto
+            </div>
+            <div class="bg-white">
+                producto
+            </div>
+            <div class="bg-white">
+                producto
+            </div>
         </div>
     </div>
 </body>
